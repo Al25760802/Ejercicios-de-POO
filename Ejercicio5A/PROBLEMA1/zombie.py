@@ -9,6 +9,3 @@ class Zombie(Mob):
 
     def moverse(self) -> str:
         return "Camina torpemente hacia el jugador"
-
-zombie = Zombie("Zomberto", 15)
-print(zombie.presentarse())
