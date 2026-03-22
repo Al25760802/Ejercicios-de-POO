@@ -1,3 +1,5 @@
+from Mob import Mob
+
 class Arco(Herramienta):
     def __init__(self, material: str, durabilidad: int, flechas: int):
         super().__init__(material, durabilidad)
