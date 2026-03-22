@@ -1,5 +1,7 @@
 Programación Orientada a Objetos (POO) 🚀
-¡Bienvenido a mi repositorio de clase! Aquí se encuentran documentados los trabajos, prácticas y proyectos desarrollados durante el curso de Programación Orientada a Objetos en el Instituto Tecnológico de Ensenada.
+
+¡Bienvenido a mi repositorio de clase! Aquí se encuentran documentados los trabajos, 
+prácticas y proyectos desarrollados durante el curso de Programación Orientada a Objetos en el Instituto Tecnológico de Ensenada.
 
 👤 Información del Estudiante
 Nombre: Ivan Cervantes Rojas 
