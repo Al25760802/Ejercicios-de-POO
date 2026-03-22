@@ -1,23 +1,25 @@
-# Ejercicios-de-POO
-PYTHON
-Programación Orientada a Objetos (POO) 💻
+Programación Orientada a Objetos (POO) 🚀
+¡Bienvenido a mi repositorio de clase! Aquí se encuentran documentados los trabajos, prácticas y proyectos desarrollados durante el curso de Programación Orientada a Objetos en el Instituto Tecnológico de Ensenada.
 
-Ingeniería en Sistemas Computacionales | Instituto Tecnológico de Ensenada Este repositorio contiene las prácticas, proyectos y ejercicios desarrollados durante el curso de Programación Orientada a Objetos, impartida por Xenia Padilla(Docente). El objetivo principal es dominar el paradigma de la POO, el diseño de sistemas mediante UML y la implementación técnica en lenguajes de alto nivel.
-
-🛠️ Tecnologías y Herramientas
-
-Lenguajes: Python 3.x
-
-Modelado: UML (Diagramas de Clase)
-
-🎓 Sobre el Autor
-
+👤 Información del Estudiante
 Nombre: Ivan Cervantes Rojas 
+No. de control 25760802
+Grupo 2SS
+Docente: Xenia Padilla
+Institución: Instituto Tecnológico de Ensenada (ITE)
+Carrera: Ingeniería en Sistemas Computacionales / Informática
+📚 Contenido Académico: Programación Orientada a Objetos En esta asignatura, aplicamos los principios fundamentales del paradigma de Programación Orientada a Objetos (POO) para construir software modular, escalable y fácil de mantener. El enfoque principal de la clase consiste en:
 
-Grupos:2SS
+Modelado de Clases y Objetos Aprendemos a abstraer entidades del mundo real y convertirlas en Clases (plantillas) para generar Objetos (instancias) que interactúan entre sí.
 
-No. Matricula: 25760802
+Los Cuatro Pilares de la POO Durante el desarrollo de este proyecto, aplicamos:
 
-Carrera: Ingeniería en Sistemas Computacionales
+Abstracción: Identificación de las características esenciales de un objeto, eliminando detalles innecesarios.
 
-Campus: Instituto Tecnológico de Ensenada
+Encapsulamiento: Protección de los datos internos mediante el uso de modificadores de acceso (private, public, protected).
+
+Herencia: Creación de nuevas clases basadas en clases existentes para reutilizar código y jerarquizar conceptos.
+
+Polimorfismo: Capacidad de que un mismo método se comporte de distintas formas según el objeto que lo invoque.
+
+Buenas Prácticas y Diseño Más allá del código, la clase se enfoca en el uso de Diagramas de Clase (UML) para planificar la estructura antes de la implementación y asegurar que el sistema sea eficiente.
