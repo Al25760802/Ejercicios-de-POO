@@ -1,15 +1,41 @@
-## 📂 Prácticas Destacadas
+# ⛏️ Práctica 3: Abstracción en POO con Python
+**Semestre:** 2° Semestre  
+**Temática:** 🎮 Universo Minecraft  
+**Concepto Clave:** Clases Abstractas y Contratos de Interfaz
 
-A continuación, se describen algunas de las prácticas clave desarrolladas durante el curso:
+## ⬛ Objetivo de Aprendizaje
+El objetivo de esta práctica es dominar el concepto de **abstracción** mediante el uso del módulo `abc` (Abstract Base Classes) en Python. Se busca comprender cómo una clase abstracta define un **contrato** que obliga a las subclases a implementar comportamientos específicos, garantizando la integridad de la jerarquía de objetos.
 
-### 🛠️ Práctica 3: Abstracción en POO
-En esta práctica aplicamos el concepto de **Clases Abstractas** e **Interfases** utilizando Python. El proyecto se divide en dos módulos principales:
+---
 
-* **Los Mobs del Overworld (Minecraft themed):** Implementación de una jerarquía de clases para diferentes entidades, definiendo comportamientos comunes y específicos mediante métodos abstractos.
-* **La Fábrica de Herramientas:** Un sistema de gestión que utiliza herencia para crear diferentes tipos de herramientas (picos, hachas, espadas) con atributos únicos.
+## 💎 Contenido de la Práctica
 
-### 📊 Sistema de Gestión de Estudiantes
-Desarrollo de una aplicación de consola para la administración académica que incluye:
-* **Clase Estudiante:** Manejo de datos personales y académicos.
-* **Gestión de Calificaciones:** Métodos para agregar notas y cálculo automático de promedios.
-* **Encapsulamiento:** Uso de atributos privados para proteger la integridad de los datos escolares.
+### 🌍 Problema 1: Los Mobs del Overworld
+Se modeló la jerarquía de entidades (mobs) utilizando una clase base abstracta `Mob`.
+* **Clases Implementadas:** `Vaca`, `Creeper`, `Enderman` y `Zombie` (Bonus).
+* **Métodos Abstractos:** `hacer_sonido()`, `comportamiento()` y `moverse()`.
+* **Observación Técnica:** Al intentar instanciar la clase `Mob` directamente, Python lanza un `TypeError`. Esto confirma que las clases abstractas no pueden existir como objetos independientes, sino que sirven únicamente como moldes.
+
+### 🔨 Problema 2: La Fábrica de Herramientas
+Implementación de un sistema de forja que utiliza **propiedades abstractas** para definir atributos obligatorios.
+* **Herramientas:** `Pico`, `Espada`, `Pala` y `Arco` (Bonus con gestión de flechas).
+* **Lógica de Desgaste:** Cada uso reduce la durabilidad según el material (Madera, Piedra, Hierro, Oro, Diamante, Netherita).
+* **Encapsulamiento:** Uso de atributos protegidos (`_material`, `_usos_restantes`) para gestionar el estado interno de la herramienta.
+
+---
+
+## 📦 Conceptos de Programación Aplicados
+* **`ABC` / `ABCMeta`:** Para definir la naturaleza abstracta de las clases.
+* **`@abstractmethod`:** Para obligar a la implementación de lógica en las subclases.
+* **`@property` abstracta:** Para asegurar que cada herramienta tenga un nombre definido.
+* **Polimorfismo:** Un mismo método (`usar()` o `presentarse()`) actúa de forma distinta según el objeto que lo ejecute.
+
+---
+
+## 🛠️ Instrucciones de Ejecución
+1. Asegúrate de tener instalado **Python 3.8+**.
+2. Clona el repositorio o descarga los archivos `.py`.
+3. Ejecuta los scripts desde la terminal:
+   ```bash
+   python problema_1_mobs.py
+   python problema_2_herramientas.py
