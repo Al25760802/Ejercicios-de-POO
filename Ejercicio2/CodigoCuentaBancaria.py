@@ -24,7 +24,7 @@ class CuentaBancaria:
         return f"{self.titular} tienes {self.saldo}"
 
 #Crear cuenta
-cuenta1 = CuentaBancaria("David Castro", "12345", 2000.0)
+cuenta1 = CuentaBancaria("Ivan Zero", "12345", 2000.0)
 print(cuenta1.mostrarInformacion())
 cuenta1.depositar(700.0)
 print(cuenta1.mostrarInformacion())
@@ -33,7 +33,7 @@ cuenta1.depositar(5000.0)
 print(cuenta1.mostrarInformacion())
 print(cuenta1.consultarSaldo())
 
-cuenta2 = CuentaBancaria("Johana Aguilera", "54321", 5000.0)
+cuenta2 = CuentaBancaria("Rut Rojas", "54321", 5000.0)
 print(cuenta2.mostrarInformacion())
 cuenta2.depositar(200.0)
 print(cuenta2.mostrarInformacion())
