@@ -1,21 +1,30 @@
-# 📂 Colección de Proyectos: Programación Orientada a Objetos
-**Semestre:** 2° Semestre  
-**Temas:** Modularidad, Herencia, Especialización e Importación de Clases.
+# 🚀 Proyecto Integrador: POO y Modularidad en Python
+**Estudiante:** Ivan Cervantes Rojas  
+**Temática:** Gestión de Menú (Restaurante) & Sistema de Héroes (RPG)
 
-## 📝 Descripción General
-Este repositorio contiene dos aplicaciones prácticas que demuestran la capacidad de organizar código en múltiples archivos y carpetas, facilitando el mantenimiento y la escalabilidad de sistemas complejos en Python.
+## 📝 Descripción
+Este proyecto integra dos sistemas independientes en un único flujo de ejecución, demostrando el poder de la **Programación Orientada a Objetos** para resolver problemas de distintos dominios (Comercio y Videojuegos) utilizando los mismos principios de arquitectura de software.
+
+## 📂 Estructura de Módulos Integrados
+El código se apoya en una arquitectura de archivos separados para mantener la limpieza (Clean Code):
+
+| Categoría | Módulos Relacionados | Propósito |
+| :--- | :--- | :--- |
+| **Gastronomía** | `Comida`, `Bebida`, `Postre` | Gestión de precios, tipos y detalles de menú. |
+| **Combate RPG** | `Guerrero`, `Mago`, `Arquero` | Gestión de niveles, equipos y habilidades únicas. |
 
 ---
 
-## 🍽️ Proyecto 1: Sistema de Gestión de Menú
-Este módulo simula la administración de productos en un restaurante, categorizando elementos por su naturaleza y atributos específicos.
+## 🛠️ Implementación Técnica
 
-### 🍱 Estructura de Clases
-* **Comida:** Maneja platos principales con atributos de categoría (Entrada, Fuerte).
-* **Bebida:** Gestiona el inventario de líquidos y su temperatura (Fría/Caliente).
-* **Postre:** Controla detalles específicos como restricciones alimentarias.
+### 1. Sistema de Restaurante
+Se instancian productos con atributos específicos que definen su comportamiento en el menú:
+* **Pozole Rojo:** Plato principal ($85.0).
+* **Sangría:** Bebida fría ($35.0).
+* **Chocoflan:** Postre especializado ($45.0).
 
-**Ejemplo de implementación:**
-```python
-Pozole = Comida("Pozole rojo", 85.0, "Principal")
-Sangría = Bebida("Bebida de sangría", 35.0, "Fría")
+### 2. Sistema de Héroes
+Se crean personajes con habilidades polimórficas (el mismo método realiza acciones distintas):
+* **Zero (Guerrero):** Usa fuerza física con la *Espada mataDragones*.
+* **JAZZ (Mago):** Ejecuta magia de área con *Vacio infinito*.
+* **Arquimedes (Arquero):** Ataque a distancia con conteo de flechas.
