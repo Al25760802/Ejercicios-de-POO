@@ -3,7 +3,7 @@ from Observador import Observador
 
 def ejecutar_torneo():
     print("--- Competidor ---")
-    c1 = Competidor("ZeroRequiem", "25760802", "Leyenda", "Equipo")
+    c1 = Competidor("ZeroRequiem", "25760802", "Leyenda", "Equipo 23")
     c1.mostrar_perfil()
     print()
     c1.ganar_puntos(100)
