@@ -1,4 +1,4 @@
-# 📂 *__Ejercicio 09: Gestión de Archivos y Metadatos__*
+# 📂 Ejercicio #09: Gestión de Archivos y Metadatos__*
 
 Este repositorio presenta una solución práctica en **Python** para la creación de archivos de texto y la obtención de información técnica sobre su almacenamiento en disco, realizando cálculos de conversión a **KB** y **MB**.
 para una manera mas rapida y precisa de verificar en mb o kbps el tamaño de los archivos de como quedaron cuando finalizamos el proyecto.
